@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19032" started-at="2017-04-01T06:02:28Z" finished-at="2017-04-01T06:02:47Z">
+    <groups>
+    </groups>
+    <test name="GrammarEdit" duration-ms="19032" started-at="2017-04-01T06:02:28Z" finished-at="2017-04-01T06:02:47Z">
+      <class name="testcase.LoginCase">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.LoginCase@29b8770d]" name="beforeMethod" is-config="true" duration-ms="3413" started-at="2017-04-01T14:02:28Z" finished-at="2017-04-01T14:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="f()[pri:0, instance:testcase.LoginCase@29b8770d]" name="f" duration-ms="14542" started-at="2017-04-01T14:02:31Z" finished-at="2017-04-01T14:02:46Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[can't click [Submit] in [LoginPage]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: can't click [Submit] in [LoginPage]
+	at utils.Actions.click(Actions.java:77)
+	at modules.LoginModule.login(LoginModule.java:12)
+	at testcase.LoginCase.f(LoginCase.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.LoginCase@29b8770d]" name="afterMethod" is-config="true" duration-ms="1038" started-at="2017-04-01T14:02:46Z" finished-at="2017-04-01T14:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcase.LoginCase -->
+      <class name="testcase.NewTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:testcase.NewTest@4638733c]" name="f" duration-ms="5" started-at="2017-04-01T14:02:47Z" finished-at="2017-04-01T14:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="g(java.lang.String)[pri:0, instance:testcase.NewTest@4638733c]" name="g" duration-ms="0" started-at="2017-04-01T14:02:47Z" finished-at="2017-04-01T14:02:47Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Test on method g but has not been marked @Optional or defined
+in D:\eclipse-jee-mars-1-win32-x86_64\workspace\grammarTest\document\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Test on method g but has not been marked @Optional or defined
+in D:\eclipse-jee-mars-1-win32-x86_64\workspace\grammarTest\document\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g -->
+      </class> <!-- testcase.NewTest -->
+      <class name="testcase.MyTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:testcase.MyTest@1ff95301]" name="f" duration-ms="3" started-at="2017-04-01T14:02:47Z" finished-at="2017-04-01T14:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testcase.MyTest -->
+    </test> <!-- GrammarEdit -->
+  </suite> <!-- Suite -->
+</testng-results>

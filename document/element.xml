@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PageObject>
+    <LoginPage>
+        <Username type="id" value="username"/>
+        <Password type="id" value="password"/>
+        <Submit type="id" value="loginbt"/>
+        <Register type="className" value="btn registerbtn"/>
+    </LoginPage>
+    <HomePage>
+        <MyBlog type="className" value="navE"/>
+        <Quite type="className" value="navB loginout"/>
+        <WriteBlog type="className" value="createbtn div-inline"/>
+    </HomePage>
+    <WriteBlogPage>
+        <Title type="className" value="b-title"/>
+        <Context type="xpath" value="/html/body/p"/>
+        <Submit type="id" value="submitbtn"/>
+        <iframe type="className" value="cke_wysiwyg_frame cke_reset"/>
+    </WriteBlogPage>
+</PageObject>

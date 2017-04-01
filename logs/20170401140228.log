@@ -1,0 +1,12 @@
+2017-04-01 14:02:28.956 INFO  utils.Log 38 testStart - ----------Test Start----------
+2017-04-01 14:02:31.885 INFO  utils.Log 22 info - open chrome browser
+2017-04-01 14:02:46.233 INFO  utils.Log 22 info - navigate to [http://study-miniblog-new.qa.netease.com/login]
+2017-04-01 14:02:46.318 INFO  utils.Log 22 info - send [spencer] to [Username] in [LoginPage]
+2017-04-01 14:02:46.392 INFO  utils.Log 22 info - send [asdD1234] to [Password] in [LoginPage]
+2017-04-01 14:02:46.428 ERROR utils.Log 26 error - can't locate [Submit] in [LoginPage]
+2017-04-01 14:02:46.428 ERROR utils.Log 26 error - can't click [Submit] in [LoginPage]
+2017-04-01 14:02:47.468 INFO  utils.Log 22 info - close the browser
+2017-04-01 14:02:47.468 INFO  utils.Log 42 testEnd - ----------Test End----------
+
+2017-04-01 14:02:47.475 INFO  utils.Log 22 info - mytest
+2017-04-01 14:02:47.484 INFO  utils.Log 22 info - NewTest

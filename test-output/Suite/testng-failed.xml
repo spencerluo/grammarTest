@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="GrammarEdit(failed)">
+    <classes>
+      <class name="testcase.NewTest">
+        <methods>
+          <include name="g"/>
+        </methods>
+      </class> <!-- testcase.NewTest -->
+      <class name="testcase.LoginCase">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testcase.LoginCase -->
+    </classes>
+  </test> <!-- GrammarEdit(failed) -->
+</suite> <!-- Failed suite [Suite] -->

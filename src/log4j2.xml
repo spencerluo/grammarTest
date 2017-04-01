@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Properties>
+		<Property name="filename">logs/${sys:myconfig.accout}</Property>
+	</Properties>
+	<Appenders>
+		<File name="log" fileName="${filename}" append="false">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n" />
+		</File>
+	</Appenders>
+	<Loggers>
+		<Root level="trace">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="log" />
+		</Root>
+	</Loggers>
+
+</Configuration>
